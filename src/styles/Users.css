@@ -1,0 +1,96 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  gap:30px;
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.user-card h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 18px;
+  color: #666;
+}
+
+.user-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  background-color: #3730a3;
+}
+.profile-icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:#e5e7eb;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 35px;
+    flex-shrink: 0;
+}
+.icon-0{
+    background-color: #e0e7ff;
+    color: #4f46e5;
+}
+.icon-1
+{
+    background-color: #dcfce7;
+    color: #22c55e;
+}
+.icon-2{
+    background-color: #ffedd5;
+    color: #f97316;
+}
+
+.user-info h3{
+    margin: 0;
+    font-size: 32px;
+}
+.user-info p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.user-info a{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4f46e5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+page-container{
+    width:80%;
+    margin:30px auto;
+    background-color:white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.page-container h1{
+    color:#4f46e5;
+    margin-bottom: 20px;
+
+}
+.page-container p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
